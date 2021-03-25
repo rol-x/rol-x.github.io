@@ -29,7 +29,7 @@
       <div class="{{ metadata_styles }}">
         {% octicon checklist height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:resume %}
         <a href="/resume/latos_cv.pdf" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          My resume
+          View my resume
         </a>
       </div>
     {% if user.hireable %}
@@ -37,6 +37,7 @@
     {% endif %}
 
     <div class="{{ metadata_styles }}">
+      <img src="/images/einstein.jpg" class="mx-auto rounded-1 mb-1">
       <p>
         <i>If you are not the man you ought to be, you are someone else</i>
       </p>
