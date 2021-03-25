@@ -23,30 +23,30 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: true
-    forks: false
+    archived: false
+    forks: true
     projects:
-	- TourismCompanyApp
-	- 4chan_scrapper
-	- bfck_interpreter
-	- TaskList
-	- FightSimulator
-	- FightModuleTAC
-	- AnagramFinder
-	- ExceptionsPresentationCode
-	- OaDM-O_1
-	- Templates
-	- PiSquare
-	- OaDM-Gn
-	- Interpolation
-	- Horner
-	- NumericalDifferentiation
-	- CommunicationAndSocialMedia
-	- ApproxOdeSolvingReport
-	- asm_bubble_sort
-	- asm_sqrt_newton
-	- gate_control_system
-	- rol-x.github.io
+      - TourismCompanyApp
+      - 4chan_scrapper
+      - bfck_interpreter
+      - TaskList
+      - FightSimulator
+      - FightModuleTAC
+      - AnagramFinder
+      - ExceptionsPresentationCode
+      - OaDM-O_1
+      - Templates
+      - PiSquare
+      - OaDM-Gn
+      - Interpolation
+      - Horner
+      - NumericalDifferentiation
+      - CommunicationAndSocialMedia
+      - ApproxOdeSolvingReport
+      - asm_bubble_sort
+      - asm_sqrt_newton
+      - gate_control_system
+      - rol-x.github.io
 
 topics:
   - name: Python ecosystem
