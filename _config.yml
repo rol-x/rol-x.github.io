@@ -21,19 +21,19 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 6
+  limit: 9
   exclude:
     archived: true
     forks: false
-    projects:
-    # - repo-name
+    projects: "4chan_scrapper" "bfck_interpreter" "TaskList" "FightSimulator" "FightModuleTAC" "AnagramFinder" "TourismCompanyApp" "ExceptionsPresentationCode" "OaDM-O_1" "Templates" "PiSquare" "OaDM-Gn" "Interpolation" "Horner" "NumericalDifferentiation" "CommunicationAndSocialMedia" "ApproximateSolvingOfOrdinaryDifferentialEquationsReport" "asm_bubble_sort" "asm_sqrt_newton" "gate_control_system" "rol-x.github.io"
 
 topics:
+  - name: Python ecosystem
+    image_url: /images/python.png
+
   - name: Data manipulation
     image_url: /images/seaborn.png
 
-  - name: Algorithms
-    image_url: /images/algs.jpg
+  - name: Machine learning
+    image_url: /images/machine-learning.jpg
 
-  - name: Python
-    image_url: /images/python.png
