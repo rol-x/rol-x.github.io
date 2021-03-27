@@ -52,3 +52,13 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+.content::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #000;
+}
