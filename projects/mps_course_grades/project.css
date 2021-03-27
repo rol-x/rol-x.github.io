@@ -2,6 +2,10 @@
   background-color: #fafbfc;
 }
 
+.content {
+  overflow-y: scroll;
+}
+
 .content::-webkit-scrollbar {
   width: 6px;
   background-color: #fafafa;
