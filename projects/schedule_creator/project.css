@@ -2,6 +2,33 @@
   background-color: #fafbfc;
 }
 
+.content {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.content::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fafafa;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #a0a0a0;
+}
+.content {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.content::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fafafa;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #a0a0a0;
+}
+
 .u-section-1 {
   background-image: none;
 }
