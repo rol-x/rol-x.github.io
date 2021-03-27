@@ -2,6 +2,15 @@
   background-color: #fafbfc;
 }
 
+.content::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fafafa;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #a0a0a0;
+}
+
 .u-section-1 {
   background-image: none;
 }
