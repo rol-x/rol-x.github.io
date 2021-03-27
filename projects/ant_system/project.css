@@ -1,12 +1,6 @@
 .body {
   background-color: #fafbfc;
 }
-
-.content {
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 .content::-webkit-scrollbar {
   width: 6px;
   background-color: #fafafa;
