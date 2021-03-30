@@ -2,6 +2,36 @@
   background-color: #fafbfc;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fafbfc;
+}
+
+.flex-left {
+  width: 40%;
+  height: 100vh;
+  margin-left: 8%;
+  margin-right: auto;
+  padding: 5px;
+  min-width: fit-content
+}
+
+.flex-right {
+  width: 40%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: 8%;
+  padding: 5px;
+  min-width: fit-content
+}
+
+.content {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+
 .content::-webkit-scrollbar {
   width: 6px;
   background-color: #fafafa;
