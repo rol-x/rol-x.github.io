@@ -3,11 +3,13 @@
 }
 
 .problem {
-  width: 90%;
-  background-color: #f0f0f0;
+  width: 75%;
   border: 5px solid gray;
+  overflow: auto;
   padding: 20px;
   margin: auto;
+  background-color: #f0f0f0;
+  text-align: center;
   border-radius: 8px
 }
 
@@ -89,7 +91,7 @@
 
 .u-section-1 .u-image-1 {
   width: 562px;
-  height: 400px;
+  height: 453px;
   margin: -8px auto -8px -60px;
 }
 
@@ -105,8 +107,8 @@
 
   .u-section-1 .u-image-1 {
     width: 479px;
-    height: 340px;
-    margin: 160px -67px 0;
+    height: 386px;
+    margin: 106px -67px 0;
   }
 }
 
@@ -123,8 +125,8 @@
 
   .u-section-1 .u-image-1 {
     width: 375px;
-    height: 270px;
-    margin-top: -24px;
+    height: 303px;
+    margin-top: 0;
     margin-left: -40px;
     margin-right: -40px;
   }
@@ -151,7 +153,7 @@
 
   .u-section-1 .u-image-1 {
     width: 530px;
-    height: 370px;
+    height: 428px;
     margin-top: -40px;
     margin-right: -10px;
     margin-left: auto;
@@ -164,7 +166,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 230px;
+    height: 258px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
