@@ -2,6 +2,45 @@
   background-color: #fafbfc;
 }
 
+.problem {
+  width: 90%;
+  background-color: #f0f0f0;
+  border: 5px solid gray;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fafbfc;
+}
+
+.flex-left {
+  width: 40%;
+  height: 100vh;
+  margin-left: 8%;
+  margin-right: auto;
+  padding: 5px;
+  min-width: fit-content
+}
+
+.flex-right {
+  width: 40%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: 8%;
+  padding: 5px;
+  min-width: fit-content
+}
+
+.content {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+
 .content::-webkit-scrollbar {
   width: 6px;
   background-color: #fafafa;
@@ -50,7 +89,7 @@
 
 .u-section-1 .u-image-1 {
   width: 562px;
-  height: 453px;
+  height: 400px;
   margin: -8px auto -8px -60px;
 }
 
@@ -66,8 +105,8 @@
 
   .u-section-1 .u-image-1 {
     width: 479px;
-    height: 386px;
-    margin: 106px -67px 0;
+    height: 340px;
+    margin: 160px -67px 0;
   }
 }
 
@@ -84,8 +123,8 @@
 
   .u-section-1 .u-image-1 {
     width: 375px;
-    height: 303px;
-    margin-top: 0;
+    height: 270px;
+    margin-top: -24px;
     margin-left: -40px;
     margin-right: -40px;
   }
@@ -112,7 +151,7 @@
 
   .u-section-1 .u-image-1 {
     width: 530px;
-    height: 428px;
+    height: 370px;
     margin-top: -40px;
     margin-right: -10px;
     margin-left: auto;
@@ -125,7 +164,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 258px;
+    height: 230px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
