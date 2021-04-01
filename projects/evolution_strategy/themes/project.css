@@ -2,6 +2,7 @@
   background-color: #fafbfc;
 }
 
+<<<<<<< HEAD:projects/evolution_strategy/themes/project.css
 .problem {
   width: 90%;
   background-color: #f0f0f0;
@@ -11,6 +12,8 @@
   border-radius: 8px
 }
 
+=======
+>>>>>>> 7169d9ccda817c6b94d244f0627b2f5b6c3b1034:projects/evolution_strategy/themes/project.css
 .flex-container {
   display: flex;
   flex-direction: row;
