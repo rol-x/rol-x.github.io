@@ -2,6 +2,36 @@
   background-color: #fafbfc;
 }
 
+.problem {
+  width: 90%;
+  background-color: #f0f0f0;
+  border: 5px solid gray;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fafbfc;
+}
+
+.flex-center {
+  width: 50%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  min-width: fit-content
+}
+
+.content {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+
 .content::-webkit-scrollbar {
   width: 6px;
   background-color: #fafafa;
@@ -50,8 +80,8 @@
 
 .u-section-1 .u-image-1 {
   width: 562px;
-  height: 453px;
-  margin: -8px auto -8px -60px;
+  height: 219px;
+  margin: 5px auto -8px -60px;
 }
 
 @media (max-width: 1199px) {
@@ -66,8 +96,8 @@
 
   .u-section-1 .u-image-1 {
     width: 479px;
-    height: 386px;
-    margin: 106px -67px 0;
+    height: 187px;
+    margin: 160px -67px 0;
   }
 }
 
@@ -84,8 +114,8 @@
 
   .u-section-1 .u-image-1 {
     width: 375px;
-    height: 303px;
-    margin-top: 0;
+    height: 146px;
+    margin-top: 0px;
     margin-left: -40px;
     margin-right: -40px;
   }
@@ -112,7 +142,7 @@
 
   .u-section-1 .u-image-1 {
     width: 530px;
-    height: 428px;
+    height: 207px;
     margin-top: -40px;
     margin-right: -10px;
     margin-left: auto;
@@ -125,7 +155,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 258px;
+    height: 124px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
