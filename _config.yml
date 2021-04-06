@@ -24,7 +24,7 @@ projects:
     - ant_system
     - evolution_strategy
     - Poker
-    - MemoryConsoleGasme
+    - MemoryConsoleGame
     - TextFightModule
   sort_by: stars
   # sort_by options:
