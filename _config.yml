@@ -24,8 +24,8 @@ projects:
     - ant_system
     - evolution_strategy
     - Poker
-    - MemoryConsoleGame
-    - TheAmuletsOfCamembert
+    - MemoryConsoleGasme
+    - TextFightModule
   sort_by: stars
   # sort_by options:
   #   - pushed
@@ -45,4 +45,3 @@ topics:
 
   - name: Machine learning
     image_url: /images/machine-learning.jpg
-
