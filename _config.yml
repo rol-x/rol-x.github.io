@@ -37,11 +37,14 @@ projects:
     projects:
 
 topics:
-  - name: Python ecosystem
-    image_url: /images/python.png
-
+#  - name: Python ecosystem
+#    image_url: /images/python.png
+#
   - name: Data manipulation
     image_url: /images/seaborn.png
 
   - name: Machine learning
     image_url: /images/machine-learning.jpg
+
+  - name: Computer vision
+    image_url: /images/opencv.png
